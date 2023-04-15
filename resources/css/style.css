@@ -268,8 +268,9 @@ section {
 
 .home-img img {
     position: absolute;
+    top: -15rem;
     bottom: 0;
-    right: 0;
+    right: -5rem;
     width: 100%;
     pointer-events: none;
 }
@@ -310,6 +311,77 @@ span {
 .about-content p a:hover {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.eduction{
+    margin-top: 3rem;
+    display:inline-flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+
+/* .eduction-box{
+    padding-top: 5rem;
+    margin:  0 auto;
+    justify-content: center;
+    align-items:center;
+    width: 45%;
+    border-left: 2px solid var(--shadow-color);
+    border-right: 2px solid var(--shadow-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+} */
+
+.eduction-container .eduction-box {
+    
+    margin-bottom: 2rem;
+    margin: 2rem auto;
+    width: 50%;
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    padding: 3rem 2rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+    text-align: center;
+    border-left: .6rem solid var(--main-color);
+    border-right: .6rem solid var(--main-color);
+    transition: .7s ease;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -ms-transition: .7s ease;
+    -o-transition: .7s ease;
+}
+
+.eduction-container .eduction-box:hover {
+    box-shadow: 0 .1rem 2rem var(--shadow-color);
+    transform: scale(1.02);
+}
+.eduction-box h3{
+    font-size: 3rem;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+.eduction-box h4 {
+    font-size: 2.6rem;
+}
+
+.eduction-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    line-height:2;
 }
 
 .skill {
@@ -419,11 +491,15 @@ span {
     text-align: center;
     padding: 0 4rem;
     opacity: 0;
+    transition: .75s;
+    -webkit-transition: .75s;
+    -moz-transition: .75s;
+    -ms-transition: .75s;
+    -o-transition: .75s;
 }
 
 .project-box:hover .project-layer {
     opacity: 1;
-
 }
 
 
