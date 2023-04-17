@@ -224,19 +224,23 @@ section {
 
 @keyframes professionRotate {
 
-    0%,    20% {
+    0%,
+    20% {
         transform: rotate(0deg);
     }
 
-    25%,    45% {
+    25%,
+    45% {
         transform: rotate(-90deg);
     }
 
-    50%,    70% {
+    50%,
+    70% {
         transform: rotate(-180deg);
     }
 
-    75%, 95% {
+    75%,
+    95% {
         transform: rotate(-270deg);
     }
 
@@ -544,6 +548,12 @@ span {
 .project-layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
+}
+
+.project-layer .project-link {
+    justify-content: center;
+    text-align: center;
+    margin-top: ;
 }
 
 .project-layer a {
