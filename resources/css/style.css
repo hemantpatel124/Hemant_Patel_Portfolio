@@ -24,7 +24,8 @@
 .dark-mode {
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
-    --shadow-color: rgba(0, 0, 0, .2);
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(255, 255, 255, 0.2);
 }
 
 html {
@@ -534,10 +535,12 @@ span {
     -moz-transition: .75s;
     -ms-transition: .75s;
     -o-transition: .75s;
+    justify-content: center;
 }
 
 .project-box:hover .project-layer {
     opacity: 1;
+    justify-content: center;
 }
 
 
@@ -588,6 +591,9 @@ span {
     height: 32rem;
 }
 
+#certificate .project-container .project-box .certificate-layer{
+justify-content: center;
+}
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -615,7 +621,11 @@ span {
     border-radius: .8rem;
     margin: .7rem 0;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
+    
 }
+
+
+
 
 .contact form .input-box input {
     width: 49%;
