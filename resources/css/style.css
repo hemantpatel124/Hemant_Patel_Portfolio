@@ -511,6 +511,10 @@ span {
 .project-box img {
     width: 100%;
 }
+.project-box img {
+    height:36rem;
+    width: 100%;
+}
 
 .project-box:hover img {
     transform: scale(1.1);
